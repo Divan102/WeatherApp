@@ -1,0 +1,14 @@
+.icon {
+  filter: invert(100%);
+}
+
+.weatherIcon {
+  width: 100%;
+  /* width: 128px; */
+}
+
+.weathercondition {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: -0.2rem;
+}

@@ -1,0 +1,9 @@
+.containerTiles {
+  width: 7rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.containerTiles .icon {
+  width: 100%;
+}

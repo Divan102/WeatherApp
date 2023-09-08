@@ -1,0 +1,38 @@
+.WeatherContainer {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+}
+
+.WeatherIcon {
+  position: absolute;
+  width: 128px;
+  top: 150px;
+  right: 400px;
+}
+
+.Temperature {
+  position: absolute;
+  top: 170px;
+  left: 400px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.Switch {
+  text-align: center;
+  font-weight: normal;
+}
+
+.WeatherCondition {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 60px;
+  text-align: center;
+  top: 450px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

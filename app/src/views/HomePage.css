@@ -1,0 +1,101 @@
+.home-page {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.App-Paragraph {
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.App-Search {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  color: #262c30;
+  width: 40%;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-Search input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #262c30;
+  font-size: 24px;
+  font-weight: normal;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+.App-Button button {
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  width: 30%;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #066aa3;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-Button button:hover {
+  background-color: #0b8fd4;
+}
+.bottomText {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* For mobile */
+@media only screen and (max-width: 600px) {
+  .App {
+    font-size: 30px;
+  }
+
+  .App-Paragraph {
+    font-size: 20px;
+  }
+
+  .App-Search {
+    font-size: 18px;
+    width: 80%;
+    height: 35px;
+  }
+
+  .App-Search input {
+    font-size: 18px;
+  }
+
+  .App-Button button {
+    font-size: 18px;
+    width: 50%;
+    height: 30px;
+  }
+}

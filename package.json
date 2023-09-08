@@ -1,0 +1,40 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd app && npm run start",
+    "server": "cd server && nodemon App.js",
+    "start": "concurrently --kill-others-on-fail \"npm run client\" \"npm run server\"",
+    "update-client":"cd app && npm i",
+    "update-server":"cd server && npm i",
+    "update-all":"\"npm run update-client\" \"npm run update-server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fenrir-23/Weather-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fenrir-23/Weather-App/issues"
+  },
+  "homepage": "https://github.com/Fenrir-23/Weather-App#readme",
+  "dependencies": {
+    "concurrently": "^8.1.0",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "isomorphic-fetch": "^3.0.0",
+    "module-alias": "^2.2.3",
+    "node-fetch": "^2.6.11",
+    "nodemon": "^2.0.22",
+    "react-router-dom": "^6.11.2"
+  },
+  "_moduleAliases": {
+    "root": ".",
+    "routes": "./server/routes",
+    "server": "./server"
+  }
+}
